@@ -1,6 +1,8 @@
 # Twitter US Airline Sentiment Classification
-------------------------------------------------
-*Data Science MSc, Università degli studi di Milano-Bicocca*
+---------------------------------------------------------
+:technologist: *by Lorenzo Mauri, Alessandro Vincenzi, Emanuele Rebesco*
+
+:round_pushpin: *Data Science MSc, Università degli studi di Milano-Bicocca*
 
 <a name = 'gruppo'></a> 
 ## Contatti
@@ -27,9 +29,12 @@ In particolare vengono implementati i seguenti classificatori :
 
 Inoltre viene proposta una tecnica di `Text Augmentation` con il fine di risolvere il problema di sbilanciamento delle classi e una rappresentazione wordcloud per i commenti positivi e negativi.
 
-<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_neg.PNG?token=ANZPV2YDMG6I7PZUJYQU2H3AXJYW6'></img>
+<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_neg.PNG?token=ANZPV2YUITHIACYRLM6MILDAXJZ34' width = 200 height = 200></img>
 
-<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_pos.PNG?token=ANZPV2Y5OIBUFZ2L2AFBXJTAXJZUS'></img>
+<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_pos.PNG?token=ANZPV2Y5OIBUFZ2L2AFBXJTAXJZUS' width = 200 height = 200></img>
+
+#### Relazione
+Per ulteriori dettagli fare riferimento al [Report.pdf](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/Report.pdf)
 
 <a name = 'dataset'></a> 
 ## Dataset
@@ -39,16 +44,17 @@ Il dataset considerato è il seguente [Twitter US Airline Sentiment](https://www
 <a name = 'requisiti'></a>
 ## Requisiti
 -------------
-Per una corretta esecuzione del codice, verificare che tutte le librerie menzionate nel file `requirements.txt` siano installate.
+
+Per una corretta esecuzione del codice, verificare che tutte le librerie menzionate nel file [requirements.txt](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/requirements.txt) siano installate.
 
 ## Risorse & how-to-run
 -------------------------
 
 * `Tweets.csv` : dati grezzi
 
-* `twitterReviewsBalanced_Aug.csv` : dati elaborati con data augmentation
+* `twitterReviewsBalanced_Aug.csv` : dati elaborati e bilanciati con data augmentation
 
-* `twitterReviewsBalanced_noAug.csv` : dati elaborati senza data augmentation
+* `twitterReviewsBalanced_noAug.csv` : dati elaborati e bilanciati senza data augmentation
 
 * `Text_Mining_preprocessing.ipynb`  : contiene il codice sorgente per l'elaborazione del testo
 

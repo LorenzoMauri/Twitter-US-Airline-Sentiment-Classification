@@ -29,9 +29,9 @@ In particolare vengono implementati i seguenti classificatori :
 
 Inoltre viene proposta una tecnica di `Text Augmentation` con il fine di risolvere il problema di sbilanciamento delle classi e una rappresentazione wordcloud per i commenti positivi e negativi.
 
-<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_neg.PNG?token=ANZPV2YUITHIACYRLM6MILDAXJZ34' width = 200 height = 200></img>
+<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_neg.PNG?token=ANZPV23M3QOGHWQSJW4GBH3AXJ364' width = 200 height = 200></img>
 
-<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_pos.PNG?token=ANZPV2Y5OIBUFZ2L2AFBXJTAXJZUS' width = 200 height = 200></img>
+<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_pos.PNG?token=ANZPV27X6IM2LQAUOIHGHA3AXJ4AU' width = 200 height = 200></img>
 
 #### Relazione
 Per ulteriori dettagli fare riferimento al [Report.pdf](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/Report.pdf)

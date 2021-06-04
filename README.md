@@ -27,6 +27,9 @@ In particolare vengono implementati i seguenti classificatori :
 
 Inoltre viene proposta una tecnica di `Text Augmentation` con il fine di risolvere il problema di sbilanciamento delle classi e una rappresentazione wordcloud per i commenti positivi e negativi.
 
+<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_neg.PNG?token=ANZPV2YDMG6I7PZUJYQU2H3AXJYW6'></img>
+
+<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_pos.PNG?token=ANZPV2Y5OIBUFZ2L2AFBXJTAXJZUS'></img>
 
 <a name = 'dataset'></a> 
 ## Dataset
@@ -36,17 +39,21 @@ Il dataset considerato è il seguente [Twitter US Airline Sentiment](https://www
 <a name = 'requisiti'></a>
 ## Requisiti
 -------------
-Per una corretta esecuzione del codice, verificare che tutte le librerie menzionate nel file requirements.txt (in allegato) siano installate.
+Per una corretta esecuzione del codice, verificare che tutte le librerie menzionate nel file `requirements.txt` siano installate.
 
 ## Risorse & how-to-run
 -------------------------
 
-Il codice sorgente è presente all'interno dei seguenti file : 
+* `Tweets.csv` : dati grezzi
 
-* Text_Mining_models.ipynb : contiene la rappresentazione del testo, il training/test dei classificatori e la visualizzazioni di commenti positivi/negativi tramite wordcloud. 
+* `twitterReviewsBalanced_Aug.csv` : dati elaborati con data augmentation
+
+* `twitterReviewsBalanced_noAug.csv` : dati elaborati senza data augmentation
+
+* `Text_Mining_preprocessing.ipynb`  : contiene il codice sorgente per l'elaborazione del testo
+
+* `Text_Mining_models.ipynb` : contiene il codice sorgente per la rappresentazione del testo, il training/test dei classificatori e le visualizzazioni di commenti positivi/negativi tramite wordcloud. 
 
 
-* Text_Mining_preprocessing.ipynb  : contiene l'elaborazione del testo
 
-I dati grezzi sono contenuti nel file Tweets.csv mentre i file twitterReviewsBalanced_Aug.csv e twitterReviewsBalanced_noAug.csv contengono il dato a seguito della fase di elaborazione (output del file Text_Mining_preprocessing.ipynb) 
 

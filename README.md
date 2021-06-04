@@ -64,7 +64,7 @@ filePath = '/content/drive/MyDrive/text mining and search/twitter sentiment/Twee
 * `Text_Mining_models.ipynb` : contiene il codice sorgente per la rappresentazione del testo, il training/test dei classificatori e le visualizzazioni di commenti positivi/negativi tramite wordcloud. 
 
 
-  * Analogamente, per importare i dati è necessario cambiare il percorso nella sezione `Import dati`. Inoltre, al fine di generare correttamente le visualizzazioni wordcloud, è necessario importare il [logo di Twitter] e sostituire il percorso di tale immagine nello snippet seguente (presente nella sezione `Extra` del notebook)
+  * Analogamente, per importare i dati è necessario cambiare il percorso nella sezione `Import dati`. Inoltre, al fine di generare correttamente le visualizzazioni wordcloud, è necessario importare il [logo di Twitter](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/wordcloud_shape.jpg) e sostituire il percorso di tale immagine nello snippet seguente (presente nella sezione `Extra` del notebook)
 
 ```
 twitter_mask = np.array(Image.open("/content/social-twitter-bird-symbol_318-27588.jpg"))

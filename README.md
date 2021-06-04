@@ -29,9 +29,6 @@ In particolare vengono implementati i seguenti classificatori :
 
 Inoltre viene proposta una tecnica di `Text Augmentation` con il fine di risolvere il problema di sbilanciamento delle classi e una rappresentazione wordcloud per i commenti positivi e negativi.
 
-<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_neg.PNG?token=ANZPV23M3QOGHWQSJW4GBH3AXJ364' width = 200 height = 200></img>
-
-<img src = 'https://raw.githubusercontent.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/main/wordcloud_pos.PNG?token=ANZPV27X6IM2LQAUOIHGHA3AXJ4AU' width = 200 height = 200></img>
 
 #### Relazione
 Per ulteriori dettagli fare riferimento al [Report.pdf](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/Report.pdf)
@@ -56,10 +53,26 @@ Per una corretta esecuzione del codice, verificare che tutte le librerie menzion
 
 * `twitterReviewsBalanced_noAug.csv` : dati elaborati e bilanciati senza data augmentation
 
-* `Text_Mining_preprocessing.ipynb`  : contiene il codice sorgente per l'elaborazione del testo
+* `Text_Mining_preprocessing.ipynb`  : contiene il codice sorgente per l'elaborazione del testo. L'import dei dati grezzi viene svolto tramite Google Drive, perciò è necessario autenticarsi con le proprie credenziali e fare il mount del Drive prima di eseguire ogni altra operazione. S
+
+Successivamente, modificare il `path` seguente (nella sezione `Import dati` del notebook) con il proprio percorso (in cui `Tweets.csv` risiede).
+
+```
+filePath = '/content/drive/MyDrive/text mining and search/twitter sentiment/Tweets.csv
+```
+
 
 * `Text_Mining_models.ipynb` : contiene il codice sorgente per la rappresentazione del testo, il training/test dei classificatori e le visualizzazioni di commenti positivi/negativi tramite wordcloud. 
 
+
+Analogamente, per importare i dati cambiare il percorso nella sezione `Import dati`.
+
+
+Al fine di generare correttamente le visualizzazioni wordcloud è necessario importare il [logo di Twitter] e sostituire il percorso nello snippet
+
+```
+filePath = '/content/drive/MyDrive/text mining and search/twitter sentiment/Tweets.csv
+```
 
 
 

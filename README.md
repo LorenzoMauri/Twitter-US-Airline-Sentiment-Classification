@@ -71,8 +71,10 @@ Analogamente, per importare i dati cambiare il percorso nella sezione `Import da
 Al fine di generare correttamente le visualizzazioni wordcloud è necessario importare il [logo di Twitter] e sostituire il percorso nello snippet
 
 ```
-filePath = '/content/drive/MyDrive/text mining and search/twitter sentiment/Tweets.csv
+twitter_mask = np.array(Image.open("/content/social-twitter-bird-symbol_318-27588.jpg"))
 ```
+presente nella sezione Extra (l'ultima del notebook).
+
 
 
 

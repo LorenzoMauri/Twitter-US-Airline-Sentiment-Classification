@@ -1,0 +1,22 @@
+python 3.6+
+
+packages required : 
+
+nlpaug
+unicode
+stop-words
+demoji
+regex
+nltk
+sklearn
+keras
+tensorlow
+seaborn 
+matplotlib
+numpy 
+pandas 
+textblob
+typing
+tqdm
+PIL
+wordcloud

@@ -54,7 +54,7 @@ Per una corretta esecuzione del codice, verificare che tutte le librerie menzion
 * `twitterReviewsBalanced_noAug.csv` : dati elaborati e bilanciati senza data augmentation
 
 * `Text_Mining_preprocessing.ipynb`  : contiene il codice sorgente per l'elaborazione del testo. 
-  * L'import dei dati grezzi viene svolto tramite Google Drive, perciò è necessario autenticarsi con le proprie credenziali e fare il mount del Drive prima di eseguire ogni altra operazione. Successivamente, modificare il `path` seguente (nella sezione `Import dati` del notebook) con il proprio percorso (in cui `Tweets.csv` risiede).
+  * L'import dei dati grezzi viene svolto tramite un'istanza Colab collegata a Google Drive, perciò prima di effettuare ogni altra operazione è necessario autenticarsi con le proprie credenziali e fare il mount del Drive. Successivamente, modificare il `path` seguente (nella sezione `Import dati` del notebook) con il proprio percorso (in cui `Tweets.csv` risiede).
 
 ```
 filePath = '/content/drive/MyDrive/text mining and search/twitter sentiment/Tweets.csv
@@ -64,7 +64,7 @@ filePath = '/content/drive/MyDrive/text mining and search/twitter sentiment/Twee
 * `Text_Mining_models.ipynb` : contiene il codice sorgente per la rappresentazione del testo, il training/test dei classificatori e le visualizzazioni di commenti positivi/negativi tramite wordcloud. 
 
 
-  * Analogamente, per importare i dati cambiare il percorso nella sezione `Import dati`. Al fine di generare correttamente le visualizzazioni wordcloud è necessario importare il [logo di Twitter] e sostituire il percorso nello snippet presente nella sezione `Extra` (l'ultima del notebook).
+  * Analogamente, per importare i dati è necessario cambiare il percorso nella sezione `Import dati`. Inoltre, al fine di generare correttamente le visualizzazioni wordcloud, è necessario importare il [logo di Twitter] e sostituire il percorso di tale immagine nello snippet seguente (presente nella sezione `Extra` del notebook)
 
 ```
 twitter_mask = np.array(Image.open("/content/social-twitter-bird-symbol_318-27588.jpg"))

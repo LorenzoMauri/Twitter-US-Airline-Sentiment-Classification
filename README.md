@@ -25,6 +25,8 @@ In particolare vengono implementati i seguenti classificatori :
 
 * Support Vector Machine (SVM)
 
+Inoltre viene proposta una tecnica di `Text Augmentation` con il fine di risolvere il problema di sbilanciamento delle classi e una rappresentazione wordcloud per i commenti positivi e negativi.
+
 
 <a name = 'dataset'></a> 
 ## Dataset

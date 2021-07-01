@@ -1,5 +1,8 @@
 # Twitter US Airline Sentiment Classification
 ---------------------------------------------------------
+
+[![Python Version](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://shields.io/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=comingSoon)](http://ansicolortags.readthedocs.io/?badge=latest) 
+
 :technologist: *by Lorenzo Mauri, Alessandro Vincenzi, Emanuele Rebesco*
 
 :round_pushpin: *Data Science MSc, Università degli studi di Milano-Bicocca*
@@ -18,8 +21,8 @@
 <a name = 'obiettivi'></a> 
 ## Obiettivi
 ------------
-Questo lavoro è volto allo sviluppo di alcuni modelli di Machine Learning per la classificazione della polarità (positivo, negativo o neutro) delle recensioni di compagnie aeree presenti sulla piattaforma Twitter nel mese di Febbraio 2015. 
-In particolare vengono implementati i seguenti classificatori : 
+This project aims at developing three distinct machine learning model in order to classify Twitter's comments polarity (positive, negative and neutral). 
+More specifically, the following models are implemented :
 
 * Artificial Neural Network (ANN)
 
@@ -27,19 +30,20 @@ In particolare vengono implementati i seguenti classificatori :
 
 * Support Vector Machine (SVM)
 
-Inoltre viene proposta una tecnica di `Text Augmentation` con il fine di risolvere il problema di sbilanciamento delle classi e una rappresentazione wordcloud per i commenti positivi e negativi.
+In addition, a `Text Augmentation` technique is employed to deal with the dataset's class imbalance problem and a wordcloud visualization is shown.
 
 
-#### Relazione
-Per ulteriori dettagli fare riferimento al [Report.pdf](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/Report.pdf)
+#### Report 
+Further details are available at [Report.pdf](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/Report.pdf)
+(italian version)
 
 <a name = 'dataset'></a> 
 ## Dataset
 ----------
-Il dataset considerato è il seguente [Twitter US Airline Sentiment](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) , disponibile sulla piattaforma Kaggle.
+The dataset is available here [Twitter US Airline Sentiment](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) on Kaggle website.
 
 <a name = 'requisiti'></a>
-## Requisiti
+## Requirements
 -------------
 
 Per una corretta esecuzione del codice, verificare che tutte le librerie menzionate nel file [requirements.txt](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/requirements.txt) siano installate.

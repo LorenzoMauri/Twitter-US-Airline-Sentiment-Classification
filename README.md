@@ -21,8 +21,8 @@
 <a name = 'obiettivi'></a> 
 ## Obiettivi
 ------------
-This project aims at developing three distinct machine learning model in order to classify Twitter's comments polarity (positive, negative and neutral). 
-More specifically, the following models are implemented :
+This project aims at developing three distinct machine learning models in order to classify Twitter's comments polarity (positive, negative and neutral). 
+More specifically the following models are implemented :
 
 * Artificial Neural Network (ANN)
 
@@ -30,7 +30,7 @@ More specifically, the following models are implemented :
 
 * Support Vector Machine (SVM)
 
-Moreover a `Text Augmentation` technique is employed to deal with the dataset's class imbalance problem and a wordcloud visualization is shown.
+Moreover a `Text Augmentation` technique is employed to solve the classes imbalance problem and a wordcloud visualization is presented.
 
 
 #### Report 
@@ -40,7 +40,7 @@ Further details are available at [Report.pdf](https://github.com/LorenzoMauri/Tw
 <a name = 'dataset'></a> 
 ## Dataset
 ----------
-The dataset is available here [Twitter US Airline Sentiment](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) on Kaggle website.
+The dataset is available at the following link : [Twitter US Airline Sentiment](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) ,  on Kaggle website.
 
 <a name = 'requisiti'></a>
 ## Requirements
@@ -55,7 +55,7 @@ The dataset is available here [Twitter US Airline Sentiment](https://www.kaggle.
 
 * `twitterReviewsBalanced_Aug.csv` : augmented dataset 
 
-* `twitterReviewsBalanced_noAug.csv` : non augmented dataset
+* `twitterReviewsBalanced_noAug.csv` : non-augmented dataset
 
 * `Text_Mining_preprocessing.ipynb`  : jupyter notebook that contains the source code for data preprocessing. 
   * Google Colaboratory is used to import data, so make sure to mount the Drive before any other operation. Then change the variable `filePath` (section : `Import dati` ) with your pathname (where `Tweets.csv`is located).

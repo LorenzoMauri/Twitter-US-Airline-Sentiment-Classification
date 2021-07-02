@@ -30,7 +30,7 @@ More specifically, the following models are implemented :
 
 * Support Vector Machine (SVM)
 
-In addition, a `Text Augmentation` technique is employed to deal with the dataset's class imbalance problem and a wordcloud visualization is shown.
+Moreover a `Text Augmentation` technique is employed to deal with the dataset's class imbalance problem and a wordcloud visualization is shown.
 
 
 #### Report 
@@ -46,29 +46,28 @@ The dataset is available here [Twitter US Airline Sentiment](https://www.kaggle.
 ## Requirements
 -------------
 
-Per una corretta esecuzione del codice, verificare che tutte le librerie menzionate nel file [requirements.txt](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/requirements.txt) siano installate.
+[requirements.txt](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/requirements.txt) contains all the dependencies, please check it before running the code.
 
-## Risorse & how-to-run
+## Resources & how-to-run
 -------------------------
 
-* `Tweets.csv` : dati grezzi
+* `Tweets.csv` : raw data
 
-* `twitterReviewsBalanced_Aug.csv` : dati elaborati e bilanciati con data augmentation
+* `twitterReviewsBalanced_Aug.csv` : augmented dataset 
 
-* `twitterReviewsBalanced_noAug.csv` : dati elaborati e bilanciati senza data augmentation
+* `twitterReviewsBalanced_noAug.csv` : non augmented dataset
 
-* `Text_Mining_preprocessing.ipynb`  : contiene il codice sorgente per l'elaborazione del testo. 
-  * L'import dei dati grezzi viene svolto tramite un'istanza Colab collegata a Google Drive, perciò prima di effettuare ogni altra operazione è necessario autenticarsi con le proprie credenziali e fare il mount del Drive. Successivamente, modificare il `path` seguente (nella sezione `Import dati` del notebook) con il proprio percorso (in cui `Tweets.csv` risiede).
+* `Text_Mining_preprocessing.ipynb`  : jupyter notebook that contains the source code for data preprocessing. 
+  * Google Colaboratory is used to import data, so make sure to mount the Drive before any other operation. Then change the variable `filePath` (section : `Import dati` ) with your pathname (where `Tweets.csv`is located).
 
 ```
 filePath = '/content/drive/MyDrive/text mining and search/twitter sentiment/Tweets.csv
 ```
 
 
-* `Text_Mining_models.ipynb` : contiene il codice sorgente per la rappresentazione del testo, il training/test dei classificatori e le visualizzazioni di commenti positivi/negativi tramite wordcloud. 
+* `Text_Mining_models.ipynb` : jupyter notebook that contains the source code for data modeling (training and validation steps) and visualization (wordclouds related to positive/negative tweets).
 
-
-  * Analogamente, per importare i dati è necessario cambiare il percorso nella sezione `Import dati`. Inoltre, al fine di generare correttamente le visualizzazioni wordcloud, è necessario importare il [logo di Twitter](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/wordcloud_shape.jpg) e sostituire il percorso di tale immagine nello snippet seguente (presente nella sezione `Extra` del notebook)
+  * 	analogously, please change  the pathname in the  `Import dati` section. In addition, in order to generate the wordcloud visualizations [logo di Twitter](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/wordcloud_shape.jpg) is needed : change its pathname in the following snippet (`Extra` section)
 
 ```
 twitter_mask = np.array(Image.open("/content/social-twitter-bird-symbol_318-27588.jpg"))

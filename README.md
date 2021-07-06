@@ -58,7 +58,7 @@ The dataset is available at the following link : [Twitter US Airline Sentiment](
 * `twitterReviewsBalanced_noAug.csv` : non-augmented dataset
 
 * `Text_Mining_preprocessing.ipynb`  : jupyter notebook that contains the source code for data preprocessing. 
-  * Google Colaboratory is used to import data, so make sure to mount the Drive before any other operation. Then change the variable `filePath` (section : `Import dati` ) with your pathname (where `Tweets.csv`is located).
+  * Data is imported via Google Colaboratory , so please make sure to mount the Drive before any other operation. Then         change the variable `filePath` (section : `Import dati` ) with your pathname (where `Tweets.csv`is located).
 
 ```
 filePath = '/content/drive/MyDrive/text mining and search/twitter sentiment/Tweets.csv
@@ -67,7 +67,7 @@ filePath = '/content/drive/MyDrive/text mining and search/twitter sentiment/Twee
 
 * `Text_Mining_models.ipynb` : jupyter notebook that contains the source code for data modeling (training and validation steps) and visualization (wordclouds related to positive/negative tweets).
 
-  * 	analogously, please change  the pathname in the  `Import dati` section. In addition, in order to generate the wordcloud visualizations [logo di Twitter](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/wordcloud_shape.jpg) is needed : change its pathname in the following snippet (`Extra` section)
+  * 	Please change  the pathname in the  `Import dati` section. In addition, in order to generate the wordcloud visualizations [logo di Twitter](https://github.com/LorenzoMauri/Twitter-US-Airline-Sentiment-Classification/blob/main/wordcloud_shape.jpg) is needed : change its pathname in the following snippet (`Extra` section)
 
 ```
 twitter_mask = np.array(Image.open("/content/social-twitter-bird-symbol_318-27588.jpg"))

@@ -8,7 +8,7 @@
 :round_pushpin: *Data Science MSc, Università degli studi di Milano-Bicocca*
 
 <a name = 'gruppo'></a> 
-## Contatti
+## Authors
 
 |Nome                | matricola   | email                       |
 |--------------------|-------------|-----------------------------| 
@@ -19,7 +19,7 @@
 
 
 <a name = 'obiettivi'></a> 
-## Obiettivi
+## Goals
 ------------
 This project aims at developing three distinct machine learning models in order to classify Twitter's comments polarity (positive, negative and neutral). 
 More specifically the following models are implemented :

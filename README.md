@@ -1,7 +1,7 @@
 # Twitter US Airline Sentiment Classification
 ---------------------------------------------------------
 
-[![Python Version](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://shields.io/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=comingSoon)](http://ansicolortags.readthedocs.io/?badge=latest) 
+[![Python Version](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://shields.io/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=comingSoon)](http://ansicolortags.readthedocs.io/?badge=latest) 
 
 :technologist: *by Lorenzo Mauri, Alessandro Vincenzi, Emanuele Rebesco*
 
@@ -10,13 +10,9 @@
 <a name = 'gruppo'></a> 
 ## Authors
 
-|Nome                | matricola   | email                       |
-|--------------------|-------------|-----------------------------| 
-|Alessandro Vincenzi | 800608      |a.vincenzi3@campus.unimib.it |
-|Lorenzo Mauri       | 807306      |l.mauri28@campus.unimib.it   |
-|Emanuele Rebesco    | 864006      |e.rebesco@campus.unimib.it   |
-
-
+* Lorenzo Mauri
+* Alessandro Vincenzi
+* Emanuele Rebesco
 
 <a name = 'obiettivi'></a> 
 ## Goals
